@@ -4,9 +4,7 @@ import './Calculator.css';
 const MyCulc = () => (
   <>
     <div className="container">
-      <div className="input-data">
-        <input type="text" name="input-data" value="0" />
-      </div>
+      <InputData />
       <div className="buttons">
         <div className="left-side">
           <button type="button" className="ac">AC</button>
@@ -32,6 +30,14 @@ const MyCulc = () => (
           <button type="button" className="plus">=</button>
         </div>
       </div>
+    </div>
+  </>
+);
+
+const InputData = () => (
+  <>
+    <div className="input-data">
+      <input type="text" name="input-data" value="0" />
     </div>
   </>
 );
