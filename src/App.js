@@ -1,4 +1,4 @@
-import MyCulc from './Calculator';
+import MyCulc from './components/Calculator';
 
 function App() {
   return (
