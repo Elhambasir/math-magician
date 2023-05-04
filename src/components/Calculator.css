@@ -1,6 +1,10 @@
+main {
+  width: 100%;
+  display: flex;
+}
+
 .container {
   width: 300px;
-  background-color: lightblue;
   display: flex;
   flex-direction: column;
 }

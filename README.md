@@ -160,7 +160,7 @@ To check for js errors run:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [https://github.com/Elhambasir/math-magician/issues](issue page).
+Feel free to check the [issue page](https://github.com/Elhambasir/math-magician/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
