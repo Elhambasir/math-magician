@@ -2,7 +2,9 @@ import MyCulc from './components/Calculator';
 
 function App() {
   return (
-    <MyCulc />
+    <>
+      <MyCulc />
+    </>
   );
 }
 
