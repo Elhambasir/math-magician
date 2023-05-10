@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import './Calculator.css';
+import '../styles/Calculator.css';
 import calculate from './logic/calculate';
-import Quote from './quote';
 
 const MyCulc = () => {
   const [state, updateState] = useState({
@@ -45,7 +44,6 @@ const MyCulc = () => {
           </div>
         </div>
       </div>
-      <Quote />
     </main>
   );
 

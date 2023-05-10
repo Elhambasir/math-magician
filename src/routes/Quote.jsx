@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import styles from '../styles/Quote.module.css';
 
 export default function Quote() {
   const [data, setData] = useState([]);
@@ -31,16 +32,18 @@ export default function Quote() {
   if (hasError) return <div>Something went wrong!</div>;
   if (isLoading) return <div>Loading...</div>;
   return (
-    <div className="quoteContainer">
-      <ul style={mystyle}>
-        {data.map((item) => (
-          <li key={item.quote}>
-            <b>{item.author}</b>
-            <br />
-            {item.quote}
-          </li>
-        ))}
-      </ul>
+    <div className={styles.quoteContainer}>
+      <div className={styles.quote}>
+        <ul style={mystyle}>
+          {data.map((item) => (
+            <li key={item.quote}>
+              <b>{item.author}</b>
+              <br />
+              {item.quote}
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
