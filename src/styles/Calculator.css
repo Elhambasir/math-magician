@@ -1,0 +1,73 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.input-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-data input {
+  border: none;
+  outline: none;
+  direction: rtl;
+  color: white;
+  height: 50px;
+  background-color: rgba(62, 58, 66, 0.934);
+  padding-right: 10px;
+}
+
+.buttons {
+  width: 500px;
+  height: 300px;
+  display: flex;
+}
+
+.buttons .left-side {
+  flex: 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.buttons .left-side > * {
+  padding: 10px 25px;
+  border: 1px solid lightgray;
+  font-size: 14px;
+  color: gray;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttons .left-side .zero {
+  grid-column: 1 / span 2;
+}
+
+.buttons .right-side {
+  flex: 1;
+  display: grid;
+  flex-direction: column;
+}
+
+.buttons .right-side > * {
+  padding: 10px 25px;
+  background-color: orange;
+  border: 1px solid lightgray;
+  font-size: 14px;
+  color: gray;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttons .left-side button:hover,
+.buttons .right-side button:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border: 2px solid gray;
+}
