@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding-top: 25px;
+  width: 70%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.calculator {
+  flex: 2;
+}
