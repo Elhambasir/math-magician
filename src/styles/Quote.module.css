@@ -1,0 +1,9 @@
+.quoteContainer {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.quote {
+  padding: 10px;
+}
