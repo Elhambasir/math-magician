@@ -1,0 +1,39 @@
+.navbarWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.navbarBrand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+
+.navbarNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+}
+
+.li:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.navItem {
+  font-weight: bold;
+  color: gray;
+}
