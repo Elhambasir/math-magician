@@ -136,6 +136,8 @@ To check for css errors run:
 - GitHub: [@Elhambasir](https://github.com/Elhambasir)
 - LinkedIn: [basir-ahmadi](https://www.linkedin.com/in/basir-ahmadi-8aba89263)
 
+[See Live](https://elhambasir-math-magician.onrender.com)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
