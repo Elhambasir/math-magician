@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import Home from '../routes/Home';
-import Quote from '../routes/quote';
+import Quote from '../routes/Quote';
 import Calculator from '../routes/Calculator';
 
 describe('Component render testing', () => {
