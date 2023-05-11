@@ -113,22 +113,16 @@ npm run build
 
 To run tests, run the following command:
 
-To check for html errors run:
+To check for js/jsx error run:
 
 ```sh
-  npx hint .
+  npx eslint "**/*.{js,jsx}"
 ```
 
 To check for css errors run:
 
 ```sh
   npx stylelint "**/*.{css,scss}"
-```
-
-To check for js errors run:
-
-```sh
-  npx eslint .
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

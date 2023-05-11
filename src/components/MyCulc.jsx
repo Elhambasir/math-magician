@@ -12,11 +12,15 @@ const MyCulc = () => {
     const newState = calculate(state, e.target.textContent);
     updateState(newState);
   };
+  const { next, total, operation } = state;
+  const res = (total || '') + (operation || '') + (next || '') || '0';
   return (
     <main>
       <div className="container">
         <div className="input-data">
-          <InputData data={state} />
+          <div className="input-data">
+            <input type="text" id="input" data-testid="result" name="input-data" value={res} readOnly disabled />
+          </div>
         </div>
         <div className="buttons">
           <div className="left-side">
@@ -46,14 +50,5 @@ const MyCulc = () => {
       </div>
     </main>
   );
-
-  function InputData(props) {
-    const state = props;
-    return (
-      <div className="input-data">
-        <input type="text" name="input-data" value={state.data.next || state.data.total || 0} readOnly disabled />
-      </div>
-    );
-  }
 };
 export default MyCulc;
